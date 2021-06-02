@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend&display=swap');
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    background:rgb(24, 24, 29);
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 18em 7em;
+}
+
+.container h2{
+    font-size: 40px;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.container p{
+    margin-top: 30px;
+    font-size: 18px;
+    width:55%;
+    color: rgb(182, 182, 182);
+    font-family: 'Lexend', sans-serif;
+}
+
+.container button{
+    font-family: 'Lexend', sans-serif;
+    background: rgb(116, 140, 248);
+    /* backdrop-filter: blue(5px); */
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin:40px 0 0 0px ;
+    padding: .5em 1em;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    height: 45px;
+    width: 175px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

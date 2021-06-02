@@ -1,0 +1,11 @@
+{
+  "repository": "rishii24",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+  },
+  "dependencies": {
+    "three": "^0.129.0"
+  }
+}
